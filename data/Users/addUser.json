@@ -1,0 +1,40 @@
+{
+    "AllUserDetails":{
+        "firstName": "Gaurav19",
+        "lastName": "Jaiswal",
+        "email": "Gaurav19@example.com",
+        "password": "Gaurav123"
+    },
+    "UserDetailsWithoutFirstName":{
+        "lastName": "Jaiswal",
+        "email": "Gaurav6@example.com",
+        "password": "Gaurav123"
+    },
+    "UserDetailsWithoutLastName":{
+        "firstName": "Gaurav6",
+        "email": "Gaurav7@example.com",
+        "password": "Gaurav123"
+    },
+    "UserDetailsWithoutEmail":{
+        "firstName": "Gaurav6",
+        "lastName": "Jaiswal",
+        "password": "Gaurav123"
+    },
+    "UserDetailsWithoutPassword":{
+        "firstName": "Gaurav6",
+        "lastName": "Jaiswal",
+        "email": "gaurav@example.com"
+    },
+    "PasswordLengthIsLessThanSeven":{
+        "firstName": "Gaurav10",
+        "lastName": "Jaiswal",
+        "email": "Gaurav123456789@example.com",
+        "password": "Gaur"
+    },
+    "EmailWithInvalidValue":{
+        "firstName": "Gaurav6",
+        "lastName": "Jaiswal",
+        "email":"Invalid Email",
+        "password": "Gaurav123"
+    }
+}

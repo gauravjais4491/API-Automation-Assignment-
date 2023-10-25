@@ -1,0 +1,91 @@
+{
+    "ValidContact":{
+        "firstName": "Gaurav",
+        "lastName": "Jaiswal",
+        "birthdate": "2000-09-23",
+        "email": "gaurav1@example.com",
+        "street1": "100 feet road",
+        "phone": "1234567890",
+        "street2": "Mi Showroom",
+        "city": "Banglore",
+        "postalCode": "560038",
+        "stateProvince": "Karnataka",
+        "country": "India"
+    },
+    "ContactWithInvalidBirthdayDate":{
+        "firstName": "Gaurav",
+        "birthdate": "20-09",
+        "lastName": "Jaiswal",
+        "phone": "1234567890",
+        "email": "gaurav1@example.com",
+        "street1": "100 feet road",
+        "street2": "Mi Showroom",
+        "stateProvince": "Karnataka",
+        "city": "Banglore",
+        "postalCode": "560038",
+        "country": "India"
+    },
+    "PhoneNumberIsLessThanOrEqualsToFiveDigit":{
+        "firstName": "Gaurav",
+        "birthdate": "2000-09-10",
+        "lastName": "Jaiswal",
+        "phone": "12345",
+        "email": "gaurav1@example.com",
+        "street2": "Mi Showroom",
+        "street1": "100 feet road",
+        "stateProvince": "Karnataka",
+        "city": "Banglore",
+        "country": "India",
+        "postalCode": "560038"
+    },
+    "PhoneNumberIsMoreThanFiveDigitButLessThanOrEqualsToTwelevDigit":{
+        "firstName": "Gaurav",
+        "birthdate": "2000-09-10",
+        "lastName": "Jaiswal",
+        "phone": "123456",
+        "email": "gaurav1@example.com",
+        "street2": "Mi Showroom",
+        "street1": "100 feet road",
+        "stateProvince": "Karnataka",
+        "city": "Banglore",
+        "country": "India",
+        "postalCode": "560038"
+    },
+    "PhoneNumberIsMoreThanTwelveDigitButLessThanOrEqualsToFifteenDigit":{
+        "firstName": "Gaurav",
+        "birthdate": "2000-09-10",
+        "lastName": "Jaiswal",
+        "phone": "1234561234561",
+        "email": "gaurav1@example.com",
+        "street2": "Mi Showroom",
+        "street1": "100 feet road",
+        "stateProvince": "Karnataka",
+        "city": "Banglore",
+        "country": "India",
+        "postalCode": "560038"
+    },
+    "PhoneNumberIsMoreThanFifteenDigit":{
+        "firstName": "Gaurav",
+        "birthdate": "2000-09-10",
+        "lastName": "Jaiswal",
+        "phone": "123456789013456234",
+        "email": "gaurav1@example.com",
+        "street2": "Mi Showroom",
+        "street1": "100 feet road",
+        "stateProvince": "Karnataka",
+        "city": "Banglore",
+        "country": "India",
+        "postalCode": "560038"
+    },
+    "ContactsWithoutFirstNameAndLastName":{
+        "birthdate": "2000-09-10",
+        "phone": "1234567890",
+        "email": "gaurav1@example.com",
+        "street2": "Mi Showroom",
+        "street1": "100 feet road",
+        "stateProvince": "Karnataka",
+        "city": "Banglore",
+        "postalCode": "560038",
+        "country": "India"
+    }
+}
