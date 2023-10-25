@@ -1,0 +1,23 @@
+{
+    "updateFirstName":{
+        "firstName":"Gaurav"
+    },
+    "updateLastName":{
+        "lastName":"Jaiswal"
+    },
+    "updateEmail":{
+        "email":"gaurav15@example.com"
+    },
+    "updatePassword":{
+        "password":"Gaurav123"
+    },
+    "updatePasswordWithoutAddingValue":{
+        "password":""
+    },
+    "updatePasswordWithLengthLessThanSevenCharacters":{
+        "password":"12345"
+    },
+    "updateEmailWithInvalidValue":{
+        "email":"Invalid Email"
+    }
+}
